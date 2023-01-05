@@ -37,8 +37,8 @@ nav ul li {
   line-height: 27.24px;
 }
 .btn-primary {
-  width: 150px;
-  height: 64px;
+  width: 140px;
+  height: 50px;
   font-size: 20px;
   border-radius: 5px;
   background-color: #fd6e0a;
@@ -78,8 +78,8 @@ nav ul li {
     margin-bottom: 20px;
 }
 .contact-btn{
-    width: 150px;
-    height: 64px;
+    width: 140px;
+    height: 50px;
     padding: 10px 20px;
     border-radius: 5px;
     border: 1px solid #fd6e0a;
@@ -235,9 +235,26 @@ footer{
    width: 562px;
    padding-right: 20px;
 }
+.social p{
+    color: #474747;
+    font-size: 16px;
+    line-height: 28px;
+}
+.msg{
+    width: 500px;
+}
+.social img{
+    margin:10px 10px 10px 0px;
+    cursor: pointer;
+}
 input{
     width: 461px;
     height: 64px;
+}
+textarea::placeholder, input::placeholder{
+    color: #757575;
+    font-size: 16px;
+    padding: 18px 30px;
 }
 textarea{
     width: 461px;
@@ -246,7 +263,7 @@ textarea{
 input, textarea{
     border: none;
     margin-bottom: 24px;
-    padding:0 30px;
+    border-radius: 5px;
 }
 
 /* for small devices */
